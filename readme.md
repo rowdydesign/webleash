@@ -1,7 +1,7 @@
 # WebLeash
 
 ## Installation
-Review all of the requirements and there version recommendations below. You could run into a lot of trouble when compiling the fronted assets if you stray from the recommended versions.
+Review all of the requirements and their version recommendations below. You could run into a lot of trouble when compiling the fronted assets if you stray from the recommended versions.
 
 ### Requirements
 
