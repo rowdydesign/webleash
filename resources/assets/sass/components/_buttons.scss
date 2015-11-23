@@ -1,0 +1,15 @@
+.btn.btn-facebook {
+    @include button-variant($white, $san-marino, darken($san-marino, 10%));
+}
+
+.btn.btn-google-plus {
+    @include button-variant($white, $flame-pea, darken($flame-pea, 10%));
+}
+
+.btn.btn-twitter {
+    @include button-variant($white, $curious-blue, darken($curious-blue, 10%));
+}
+
+.btn-primary {
+    @include button-variant($white, $webleash-primary, darken($webleash-primary, 10%));
+}

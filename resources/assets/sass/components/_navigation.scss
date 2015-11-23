@@ -1,0 +1,14 @@
+body.page-public {
+    > header {
+        .navbar {
+            border-radius: initial;
+
+            >.container,
+            .container-fluid {
+                .navbar-brand {
+                    padding-top: 8px;
+                }
+            }
+        }
+    }
+}

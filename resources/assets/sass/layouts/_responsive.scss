@@ -1,0 +1,45 @@
+@media (min-width: $screen-sm-min) {
+    body.page-public {
+        > header {
+            .navbar {
+                -webkit-box-shadow: $dove-gray 3px 3px 10px;
+                -moz-box-shadow: $dove-gray 3px 3px 10px;
+                box-shadow: $dove-gray 3px 3px 10px;
+            }
+        }
+    }
+
+
+    body.page-signup {
+        section#hero,
+        #hero {
+            header {
+                padding-top: 0;
+            }
+
+            article {
+                padding-bottom: 0;
+            }
+
+            h1 {
+                font-size: 4rem;
+
+                img {
+                    height: 4rem;
+                    min-height: 4rem;
+                    max-height: 4rem;
+                }
+            }
+
+            h2 {
+                font-size: 1.5rem;
+            }
+        }
+    }
+}
+
+@media (min-width: $screen-md-min) {
+}
+
+@media (min-width: $screen-lg-min) {
+}

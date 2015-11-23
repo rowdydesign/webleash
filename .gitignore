@@ -1,0 +1,77 @@
+# Project specific folders / files
+dist
+bower_components
+node_modules
+npm-debug.log
+.sass-cache/
+tmp/*
+/vendor
+pkg/
+coverage
+.ruby-version
+.ruby-gemset
+
+# Assets
+composer.lock
+composer.phar
+
+Homestead.yaml
+Homestead.json
+/node_modules
+/vendor
+
+/storage/debugbar
+
+/public/css
+/public/js
+
+# Environment
+.env
+/config/local
+
+# IDEs
+/.idea
+.project
+/.settings
+
+# OS
+.DS_Store
+Thumbs.db
+
+
+# Numerous always-ignore extensions
+*.diff
+*.err
+*.orig
+*.log
+*.rej
+*.swo
+*.swp
+*.vi
+*.gem
+*~
+
+# OS or Editor folders
+.DS_Store
+.cache
+.project
+.settings
+nbproject
+thumbs.db
+
+# Dreamweaver added files
+_notes
+dwsync.xml
+
+# Komodo
+*.komodoproject
+.komodotools
+
+# Folders to ignore
+.hg
+.svn
+publish
+.idea
+
+# build script local files
+build

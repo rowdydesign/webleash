@@ -1,0 +1,113 @@
+.multilevelpushmenu_wrapper {
+    color: $dust-gray;
+
+    a {
+        color: inherit;
+
+        font-family: $sans-serif-font-family;
+        font-size: 1.25rem;
+        font-weight: 300;
+
+        i.floatRight {
+            float: left;
+
+            text-align: center;
+
+            margin-right: 0.5rem;
+
+            width: 1.5rem;
+        }
+
+        padding: 0.75rem 1rem;
+    }
+
+    a:hover {
+        text-decoration: none;
+    }
+
+    h2 {
+        color: inherit;
+
+        margin-top: 1rem;
+        padding-left: 1rem;
+        padding-right: 1.5rem;
+
+        img {
+            float: left;
+        }
+
+        img.brand {
+            display: none;
+
+            float: right;
+
+            width: 22px;
+            height: auto;
+        }
+
+        i {
+            margin-top: 0.45rem;
+        }
+    }
+
+    h2:after {
+        clear: both;
+
+        display: block;
+
+        content: ' ';
+    }
+
+    ul {
+        padding-top: 1rem;
+    }
+
+    li,
+    li:last-child {
+        border: none;
+        padding: 0;
+    }
+
+    li:hover {
+        background-color: $gothic;
+    }
+
+    .levelHolderClass {
+        background-color: $mine-shaft;
+    }
+}
+
+.multilevelpushmenu_inactive {
+    > h2 {
+        margin-top: 0.5rem;
+        padding: 0 .4em 0 .4em;
+
+        img {
+            display: none;
+        }
+
+        img.brand {
+            display: block;
+        }
+
+        i {
+            clear: both;
+            margin-right: 1px;
+        }
+    }
+
+    > ul {
+        display: block !important;
+
+        li {
+            i.floatRight {
+                float: right;
+                margin-right: 0;
+            }
+
+            a {
+                padding: 0.75rem 0.65rem 0.75rem 0;
+            }
+        }
+    }
+}

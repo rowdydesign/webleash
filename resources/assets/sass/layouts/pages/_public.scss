@@ -1,0 +1,16 @@
+body.page-public {
+    background-image: url('../images/public-bg.jpg');
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+
+    #content {
+        background-color: $white;
+
+        border-radius: 0.5rem;
+
+        padding: 2rem;
+        margin-top: 6rem;
+    }
+}

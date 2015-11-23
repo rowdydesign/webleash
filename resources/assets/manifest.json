@@ -1,0 +1,26 @@
+{
+  "dependencies": {
+    "console.js": {
+      "files": [
+        "scripts/console.js"
+      ],
+      "main": true
+    },
+    "frontend.js": {
+      "files": [
+        "scripts/frontend.js"
+      ],
+      "main": true
+    },
+    "app.css": {
+      "files": [
+        "sass/app.scss"
+      ],
+      "main": true
+    }
+  },
+  "paths": {
+      "source": "resources/assets/",
+      "dist": "public/build/"
+  }
+}

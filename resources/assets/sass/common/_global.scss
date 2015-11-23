@@ -1,0 +1,35 @@
+html {
+    height: 100%;
+    font-size: 100%;
+}
+
+body {
+    font-family: $sans-serif-font-family;
+    font-size: 16px;
+    word-spacing: 1px;
+}
+
+a {
+    color: $gothic;
+}
+
+h1,
+h2,
+h3 {
+    font-family: $heading-font-family;
+
+    line-height: 1.45;
+    letter-spacing: 0.0313rem;
+}
+
+a:visited,
+a:focus {
+    outline: 0;
+}
+
+a:hover,
+a:active {
+    color: darken($gothic, 20%);
+
+    outline: 0;
+}
