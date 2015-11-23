@@ -18,3 +18,5 @@ Review all of the requirements and their version recommendations below. You coul
 * Run "bower install" in the root folder of the application
 * Edit .env with the appropriate values (review .env.example)
 * Make sure the folder storage and it's sub folders are writable by you and your web server (777 may be necessary)
+
+We are using gulp to compile the frontend assets. Currently the "watch" directive is broken, so "gulp" will need to be executed when a SASS or JS file is changed, along with when a new package is added via bower.
